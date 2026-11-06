@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Delegate",
+    "slug": "delegate",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "delegate",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "bundleIdentifier": "com.delegate.app",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.delegate.app"
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Delegate uses your location to show nearby jobs and verify job arrival.",
+          "locationAlwaysAndWhenInUsePermission": "Delegate may use your location during an active job to verify arrival and job location.",
+          "isIosBackgroundLocationEnabled": true,
+          "isAndroidBackgroundLocationEnabled": true,
+          "isAndroidForegroundServiceEnabled": true
+        }
+      ]
+    ]
+  }
+}
